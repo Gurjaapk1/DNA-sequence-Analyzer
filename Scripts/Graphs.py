@@ -62,18 +62,6 @@ def Heatmap(sequences, labels):
 
 
 
-# def Heatmap(sequence1, sequence2):
-#     nucleotides1 = getnucleotides(sequence1)
-#     nucleotides2 = getnucleotides(sequence2)
-#     data = [list(nucleotides1.values()), list(nucleotides2.values())]
-#     plt.imshow(data, cmpa='hot', interpolation='nearest')
-#     plt.title("Heatmap of nucleotide frequency")
-#     plt.xlabel("Nucleotides")
-#     plt.ylabel("sequences")
-#     plt.xticks(range(len(nucleotides1), list(nucleotides1.keys())))
-#     plt.yticks([0, 1], sequence1, sequence2)
-#     plt.colorbar(label="Frequency")
-#     plt.show()
 
 
 
